@@ -1,0 +1,23 @@
+.produto{
+    /* elemento */
+    &__imagem{
+        width: 100%;
+    }
+
+    &__nome { 
+        font-size: 1.2em;
+        margin: 8px 0;
+    }
+
+    &__descricao { /* elemento */
+        color: rgb(33, 33, 33);
+        font-size: 12px;
+    }
+
+    // Modificador
+    &__em-destaque{
+        border: 2px solid rgb(232, 102, 145);
+        padding: 8px;
+        background-color: #ffabce;
+    }
+}
